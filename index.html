@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>API Deutsche Bahn</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        $.get('http://localhost:3000', function(body) {
+          console.log(body);
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <h1>API Deutsche Bahn</h1>
+  </body>
+</html>
